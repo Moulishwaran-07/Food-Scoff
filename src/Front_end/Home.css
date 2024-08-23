@@ -1,0 +1,512 @@
+@font-face {
+    font-family: ThyssenJItalic;
+    src: url(../assets/font/ThyssenJItalic.TTF);
+}
+
+@font-face {
+    font-family: RadioCanadaBigVariableFontwght;
+    src: url(../assets/font/RadioCanadaBigVariableFontwght.ttf);
+}
+
+/* .cart_icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart_icon .count_icon {
+    margin-right: 130px;
+    margin-top: -42px;
+} */
+
+.banner {
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+}
+
+.hide {
+    height: 70px;
+    width: 280px;
+    background-color: #152636;
+    margin-top: -100px;
+    margin-left: 78%;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.hide2 {
+    height: 57px;
+    width: 85px;
+    position: absolute;
+    margin-top: -465px;
+    margin-left: 45px;
+    background-color: #152636;
+}
+
+.dish .tit1 {
+    margin-left: 50px;
+    font-size: 1.7rem;
+    font-family: ThyssenJItalic;
+    color: #c44900;
+    cursor: pointer;
+}
+
+.dish .menu_para {
+    margin-left: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: ThyssenJItalic;
+    color: #a4161a;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    margin-left: 50px;
+    overflow-x: scroll;
+}
+
+.items::-webkit-scrollbar {
+    display: none;
+}
+
+.items .item1 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item1:hover img {
+    transform: scale(1.05);
+}
+
+.items .item2 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item2:hover img {
+    transform: scale(1.05);
+}
+
+.items .item3 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item3:hover img {
+    transform: scale(1.05);
+}
+
+.items .item4 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item4:hover img {
+    transform: scale(1.05);
+}
+
+.items .item5 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item5:hover img {
+    transform: scale(1.05);
+}
+
+.items .item6 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item6:hover img {
+    transform: scale(1.05);
+}
+
+.items .item7 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item7:hover img {
+    transform: scale(1.05);
+}
+
+.items .item8 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item8:hover img {
+    transform: scale(1.05);
+}
+
+.items .item9 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item9:hover img {
+    transform: scale(1.05);
+}
+
+.items .item10 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item10:hover img {
+    transform: scale(1.05);
+}
+
+.items .item11 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item11:hover img {
+    transform: scale(1.05);
+}
+
+.items .item12 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item12:hover img {
+    transform: scale(1.05);
+}
+
+.items .item13 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item13:hover img {
+    transform: scale(1.05);
+}
+
+.items .item14 img {
+    height: 200px;
+    cursor: pointer;
+    transition: .0s;
+}
+
+.item14:hover img {
+    transform: scale(1.05);
+}
+
+.dish .bor {
+    height: 3px;
+    background-color: #a5a5a5;
+    border: none;
+    margin-top: 20px;
+}
+
+.tit2 {
+    margin-left: 50px;
+    font-size: 1.7rem;
+    font-family: ThyssenJItalic;
+    color: #c44900;
+}
+
+.all_foods1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+    margin-top: 40px;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.card1 {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    cursor: pointer;
+}
+
+.card1 img {
+    height: 250px;
+    width: 280px;
+    border-radius: 15px 15px 0px 0px;
+    transition: .0s;
+}
+
+/* .card1 img:hover {
+    transform: scale(1.02);
+} */
+
+.card1 .category1 {
+    display: none;
+}
+
+.card1 .offer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card1 .offer1 {
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+    position: absolute;
+    margin-right: -30px;
+    margin-top: -290px;
+}
+
+.food_info1 {
+    padding: 0px 10px 10px 10px;
+}
+
+.food_info1 .rating_star1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.food_info1 .rating_star1 .star1 {
+    width: 90px;
+    height: 20px;
+}
+
+.food_info1 .rating_star1 p {
+    font-size: 1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    color: #f26419;
+}
+
+.food_info1 .description1 {
+    font-size: 0.8rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 400;
+    color: gray;
+    margin-top: -10px
+}
+
+
+
+.Food_part1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 50px;
+    margin-top: 70px;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.card2 {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    cursor: pointer;
+}
+
+.card2 img {
+    height: 250px;
+    width: 280px;
+    border-radius: 15px 15px 0px 0px;
+    transition: .0s;
+}
+
+/* .card2 img:hover {
+    transform: scale(1.02);
+} */
+
+.card2 .category2 {
+    display: none;
+}
+
+.card2 .offer1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card2 .offer2 {
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+    position: absolute;
+    margin-right: -25px;
+    margin-top: -280px;
+}
+
+.food_info2 {
+    padding: 0px 10px 10px 10px;
+}
+
+.food_info2 .rating_star2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.food_info2 .rating_star2 .star2 {
+    width: 90px;
+    height: 20px;
+}
+
+.food_info2 .rating_star2 p {
+    font-size: 1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    color: #f26419;
+}
+
+.food_info2 .description2 {
+    font-size: 0.8rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 400;
+    color: gray;
+    margin-top: -10px
+}
+
+.food_info2 .price2 {
+    font-size: 1rem;
+    color: red;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+}
+
+.homepage hr {
+    height: 3px;
+    background-color: #a5a5a5;
+    border: none;
+    margin-top: 100px;
+}
+
+.co_detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.co1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.co1 img {
+    height: 360px;
+    width: 360px;
+
+}
+
+.co2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+@media all and (max-width:480px) {
+    .homepage {
+        overflow: hidden;
+    }
+
+    .banner {
+        width: 100%;
+        margin: auto;
+        position: relative;
+
+    }
+
+    .banner img {
+        width: 100%;
+        height: 180px;
+        margin-top: 65px;
+    }
+
+    .hide {
+        height: 30px;
+        width: 80px;
+        background-color: #152636;
+        margin-top: -47px;
+        margin-left: 73%;
+        border-radius: 0px;
+        position: absolute;
+    }
+
+    .hide2 {
+        height: 27px;
+        width: 40px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 10px;
+        background-color: #152636;
+    }
+
+    .dish .tit1 {
+        margin-left: 30px;
+        font-size: 1.4rem;
+        font-family: ThyssenJItalic;
+        color: #c44900;
+        cursor: pointer;
+    }
+
+    .dish .menu_para {
+        margin-left: 20px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        font-family: ThyssenJItalic;
+        color: #a4161a;
+        text-align: justify;
+        width: 320px;
+    }
+
+    .items {
+        margin-left: 0px;
+
+    }
+
+    .tit2 {
+        font-size: 1.4rem;
+        margin-left: 30px;
+    }
+
+    .all_foods1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 40px;
+        margin-top: 40px;
+        row-gap: 50px;
+    }
+
+    .Food_part1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 50px;
+        margin-top: 40px;
+        row-gap: 50px;
+
+    }
+}

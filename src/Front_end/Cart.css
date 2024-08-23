@@ -1,0 +1,200 @@
+@font-face {
+    font-family: RadioCanadaBigVariableFontwght;
+    src: url(../assets/font/RadioCanadaBigVariableFontwght.ttf);
+}
+
+.o_full {
+    border: 3px solid #ccd5ae;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.o_detail {
+
+    margin-top: 60px;
+    text-align: center;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #7f4f24;
+    background-image: url(../assets/icon/truck.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 57%;
+    padding-top: 8px;
+}
+
+.o_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.order_details {
+    border: 3px solid #ccd5ae;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 0px;
+   
+}
+
+.list {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-bottom: 15px;
+}
+
+.o_tit1 {
+    display: flex;
+    margin-left: -83px;
+    margin-top: 0px;
+}
+
+.o_tit1 p {
+    padding-left: 150px;
+    font-size: 1.1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    color: #344e41;
+}
+
+.o_hr {
+    border: none;
+    height: 2px;
+    background-color: #7f4f24;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -0px;
+}
+
+.o_list {
+
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.o_list1 {
+    margin-left: 115px;
+    margin-top: -55px;
+}
+
+.o_list2 {
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+.o_line {
+    height: 0.7px;
+    border: none;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+.o_list img {
+    height: 50px;
+    width: 50px;
+}
+
+.o_tit {
+    color: black;
+    margin-left: 130px;
+    font-size: 1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+}
+
+.o_cat {
+    color: black;
+    margin-left: 140px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.o_price {
+    color: black;
+    margin-left: 175px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.add_detail {
+    margin-left: 100px;
+    margin-top: -80px;
+
+}
+
+.a1 {
+    font-size: 1.1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    color: #344e41;
+}
+
+textarea {
+    border: 3px solid #ccd5ae;
+    width: 598px;
+    height: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.add_detail > input[type="number"]
+{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 10px;
+    border: 3px solid #ccd5ae;
+    
+}
+.add_detail > input[type="number"]:focus
+{
+    border: 3px solid #ccd5ae;
+    outline: none; 
+}
+.btn_1 {
+    margin-top: -30px;
+    margin-left: 480px;
+}
+
+.o_btn {
+    border: none;
+    font-size: 1.1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    border: 3px solid #f48c06;
+    background-color: white;
+    width: 110px;
+    cursor: pointer;
+    color: #9b2226;
+}
+.o_btn:hover
+{
+    border: 3px solid red;  
+    color: red; 
+    background-color: #fdfcdc;
+}
+.order_details .no_item
+{
+    font-size: 1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: #fb5607;
+}
+.err_code
+{
+    font-size: 0.8rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    color: red;
+   
+}

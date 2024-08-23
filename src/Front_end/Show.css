@@ -1,0 +1,128 @@
+@font-face {
+    font-family: RadioCanadaBigVariableFontwght;
+    src: url(../assets/font/RadioCanadaBigVariableFontwght.ttf);
+}
+.item_show
+{
+    margin-top: 70px;
+}
+.show_tit
+{
+    text-align: center;
+    color: #fb8500;
+    
+}
+.all_show
+{
+    border: 2px solid #e29578;
+    margin-top: 60px;
+}
+.show_head
+{
+    display: flex;
+   
+}
+.show_head .s1
+{
+    padding-left: 220px;
+    margin-left: -50px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #bc3908;
+}
+.s_line
+{
+  outline: none;
+  border: none;
+    height: 2px;
+    background-color: #e29578;
+}
+.show_item
+{
+    display: flex;
+   border-bottom: 2px solid #a3b18a;
+   padding-top: 10px;
+}
+.s_tit
+{
+    margin-left: 175px;
+    width: 80px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #540b0e;
+}
+.s_para
+{
+    margin-left: 170px;
+    width: 80px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #540b0e;
+}
+.s_date
+{
+    margin-left: 138px;
+    width: 90px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #540b0e;
+}
+.show_map .show1
+{
+    display: flex;
+}
+.show_map .s_title
+{
+
+    margin-left: 110px;
+    width: 120px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #540b0e;
+}
+.s_img
+{
+    margin-left: 100px;
+    height: 50px;
+    width: 60px;
+}
+.s_price
+{
+    margin-left: 160px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #540b0e;
+}
+.delete_btn
+{
+    height: 25px;
+    background-color: white;
+    color: #e01e37;
+    border: 2px solid #bd1f36;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.delete_btn:hover
+{
+    background-color: white;
+    color: #e01e37;
+    border: 2px solid #d80032;
+}
+.show_p
+{
+   text-align: center;
+   font-size: 1rem;
+   font-family: RadioCanadaBigVariableFontwght;
+   font-weight: 700;
+   color: #e55934;
+}

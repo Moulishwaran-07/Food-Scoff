@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Beef burgers",
+    "description": "A well-crafted burger offers a harmonious blend of juicy.",
+    "category": "burger",
+    "image": "https://www.tasteofhome.com/wp-content/uploads/2017/09/exps28800_UG143377D12_18_1b_RMS.jpg",
+    "price": "250₹"
+  },
+  {
+    "id": 2,
+    "title": "Veggie burger",
+    "description": "A well-crafted burger offers a harmonious blend of juicy.",
+    "category": "burger",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Secret-Veg-Cheeseburgers-c981dd6.jpg?quality=90&resize=556,505",
+    "price": "200₹"
+  },
+  {
+    "id": 3,
+    "title": "Bean burger",
+    "description": "A well-crafted burger offers a harmonious blend of juicy.",
+    "category": "burger",
+    "image": "https://thenaturalnurturer.com/wp-content/uploads/2024/01/Black-Bean-Burgers-33-500x500.jpg",
+    "price": "220₹"
+  },
+  {
+    "id": 4,
+    "title": "Cheese burger",
+    "description": "A well-crafted burger offers a harmonious blend of juicy.",
+    "category": "burger",
+    "image": "https://simply-delicious-food.com/wp-content/uploads/2015/07/Bacon-and-cheese-burgers-3.jpg",
+    "price": "270₹"
+    
+  }
+  
+]
+ 

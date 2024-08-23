@@ -1,0 +1,160 @@
+@font-face {
+    font-family: RadioCanadaBigVariableFontwght;
+    src: url(../assets/font/RadioCanadaBigVariableFontwght.ttf);
+}
+.log_page
+{
+    margin-top: 100px;
+}
+.log_design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 120px;
+    border-radius: 3px;
+    height: 450px;
+    width: 900px;
+    margin: auto;
+   
+}
+
+.l1 {
+    height: 443px;
+    width: 450px;
+   border: 3px solid #9ef01a;
+   
+}
+
+.l1 img {
+    height: 443px;
+    width: 450px;
+
+}
+
+.l2 {
+    height: 450px;
+    width: 450px;
+   background-color: #c3f277;
+
+}
+
+.log_h {
+    font-size: 1.1rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #ff5400;
+}
+
+.name {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+input[type="text1"] {
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    padding-left: 35px;
+    background-color: #c3f277;
+    color:black;
+    background-image: url(../assets/icon/user.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+.mobile {
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+.mobile > input[type="number"] {
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    padding-left: 35px;
+    background-color: #c3f277;
+    background-image: url(../assets/icon/mobile.png);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: 0px;
+    padding-bottom: 2px;
+}
+
+.mail {
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+input[type="email"] {
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    padding-left: 35px;
+    background-color: #c3f277;
+    background-image: url(../assets/icon/mail.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 0px;
+}
+
+.pass {
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+.pass > input[type="password"] {
+    width: 250px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    padding-left: 35px;
+    background-color: #c3f277;
+    background-image: url(../assets/icon/pass.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 0px;
+}
+
+.l_btn {
+    margin-top: 20px;
+    margin-left: 310px;
+    width: 100px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #004b23;
+    color: #006400;
+}
+.l_btn:hover
+{
+    color: #ff5400;
+    border: 3px solid #ffbd00;
+}
+.errorPara
+{
+    color: red;
+    font-size: 0.7rem;
+    font-family: RadioCanadaBigVariableFontwght;
+    font-weight: 600;
+    margin-top: -0px;
+    margin-left: 25px;
+}
